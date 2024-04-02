@@ -1,0 +1,4 @@
+[General]
+force-http-engine-hosts = *:8091
+[Rewrite]
+^https?://.+?/allOne\.php\?ad_name reject
